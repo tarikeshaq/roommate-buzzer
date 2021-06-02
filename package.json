@@ -1,0 +1,16 @@
+{
+  "name": "roommate-buzzer",
+  "version": "1.0.0",
+  "description": "A server to distribute buzzer calls between roommates",
+  "main": "index.js",
+  "author": "Tarik Eshaq <tarikeshaq@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "twilio": "^3.63.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
